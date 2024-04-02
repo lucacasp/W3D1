@@ -1,0 +1,143 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+.dx-item{
+    margin-right: 10px;
+    position: relative;
+}
+.user-rounded img{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    position: relative;
+}
+
+.notification-icon{
+    background-color:whitesmoke;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dx-item .notification-icon::after{
+    content: '';
+    height: 8px;
+    width: 8px;
+    border-radius: 100%;
+    border: 1px solid #FFF;
+    background: #FFAA46;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+
+.navbar {
+    background-color: #F8F9FA;
+}
+
+.nav-item img{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+}
+.container-jumbotron{
+    background-color: #7550FE;
+    .btn-container-banner{
+        .btn-banner-first{
+        background-color: #1ACB98;
+        border: none;
+        border-radius: 5px;
+        height: 40px;
+        color: white;
+        font-weight: 700;
+        font-size: smaller;
+        margin-right: 10px;
+    }
+    .btn-banner-second{
+        background-color: FFF;
+        border: none;
+        border-radius: 5px;
+        height: 40px;
+        color: 000;
+        font-weight: 700;
+        font-size:smaller
+    }
+    }
+    
+}
+
+.container-img-jumbotron img{
+    width: 400px;   
+}
+
+
+
+.container-sx-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: auto;
+}
+.container-web-student{
+    width: 450px;
+    .welcome{
+        color: #FFF;
+    }
+    .banner-student{
+        color: aliceblue;
+    }
+    
+}
+.card-item{
+    width: 400px;
+    border: none;
+}
+/* .card-body{
+    padding: 10px;
+    .icon-icon-bi{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        background-color: #FFEEDA;
+        margin-right: 10px;
+    }
+} */
+
+.list-group-item i{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 40px;
+        border-radius: 100%;
+        background-color: #FFEEDA;
+        margin-right: 10px;
+}
+
+
+.card{
+    width: 250px;
+    height: 100%;
+    border: 0;
+    
+}
+
+
+.card-user-img img{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+}
+
+.ratings i{
+    color: #FFAA46;
+}
+
+#F5F4F8;
